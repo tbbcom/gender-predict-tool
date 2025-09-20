@@ -921,10 +921,10 @@ document.addEventListener("DOMContentLoaded", function() {
 			const typeElement = document.getElementById('type');
 			const gendElement = document.getElementById('gend');
 			if(f === 1) {
-				typeElement.innerHTML = '<span style=" color: #a8f6f4;">It\'s A Baby Girl</span><br /> <picture class=processed-webp><source srcset=https://www.github.com alt="Baby Girl" title="Baby Girl" /></picture>';
+				typeElement.innerHTML = '<span style=" color: #a8f6f4;">It\'s A Baby Girl</span><br /> <picture class=processed-webp><source srcset=https://cdn.jsdelivr.net/gh/tbbcom/gender-predict-tool@main/assets/src/baby-girl.png alt="Baby Girl" title="Baby Girl" /></picture>';
 				gendElement.innerHTML = '<span style=" color: #a8f6f4;">a baby girl</span>';
 			} else if(f === 0) {
-				typeElement.innerHTML = '<span style=" color: #b8e4ff;">It\'s A Baby Boy </span><br /> <picture class=processed-webp><source srcset=https://www.github.com alt="Baby Boy" title="Baby Boy" /></picture>';
+				typeElement.innerHTML = '<span style=" color: #b8e4ff;">It\'s A Baby Boy </span><br /> <picture class=processed-webp><source srcset=https://cdn.jsdelivr.net/gh/tbbcom/gender-predict-tool@main/assets/src/baby-boy.png alt="Baby Boy" title="Baby Boy" /></picture>';
 				gendElement.innerHTML = '<span style=" color: #b8e4ff;">a baby boy</span>';
 			}
 			document.getElementById('result').style.display = 'block';
