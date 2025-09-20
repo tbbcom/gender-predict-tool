@@ -1,3 +1,4 @@
+//*This script originally taken from the site --https://www.prokerala.com/kids/baby-gender/chinese-birth-chart.php-- with embed permission as per stated on its site but I changed the entire design including its main source of images but the script remained the same and credited back to its owner -- //
 function conception_date(yy1, mm1, dd1) {
 	if(yy1 == 2017) {
 		if(mm1 == 1) {
